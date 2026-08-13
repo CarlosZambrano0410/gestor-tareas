@@ -8,7 +8,7 @@ def mostrar_menu():
     print("4. Salir")
 
 def agregar_tarea():
-    nombre = input("Tarea: ")
+    nombre = input("Ingrese el nombre de la tarea: ")
     tarea = {
         "nombre": nombre,
         "completada": False
