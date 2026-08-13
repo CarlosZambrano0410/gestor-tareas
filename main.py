@@ -7,7 +7,6 @@ def mostrar_menu():
     print("3. Mostrar progreso")
     print("4. Salir")
 
-
 def mostrar_progreso():
     total = len(tareas)
  
