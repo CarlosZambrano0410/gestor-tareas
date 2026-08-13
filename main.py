@@ -9,7 +9,5 @@ def mostrar_menu():
 
 def listar_tareas():
     for tarea in tareas:
-        print(
-            tarea["nombre"],
-            tarea["completada"]
-        )
+        print("Tarea:", tarea["nombre"])
+        print("Completada:", tarea["completada"])
