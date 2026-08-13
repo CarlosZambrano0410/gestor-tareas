@@ -31,6 +31,6 @@ def mostrar_progreso():
 
     )
  
-    print(porcentaje, "%")
- 
+    print("Progreso:", porcentaje, "%")
+
  
